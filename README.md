@@ -2,7 +2,6 @@
 ### By David Warrington
 
 ## 1 Tooling up
----
 
 ### 1.1 Text Editors
 
@@ -34,7 +33,7 @@ The reason I recommend that you install a proper text editor such as one of thes
     ```html
     <p class="text-centre">Centred text</p>
     ```
-    This makes your code easier to read because, once you understand the components of it, you will be able to tell quickly, and at a glance, what you're looking at without having to read other code for context. Syntax highlighting can also help to catch errors. For example, trying to select an ID with CSS typically uses a different colour to a class selector. So it's easier to tell at a glance that ```#about``` is not the same ```.about```.
+    This makes your code easier to read because, once you understand the components of it, you will be able to tell quickly, and at a glance, what you're looking at without having to read other code for context. Syntax highlighting can also help to catch errors. For example, trying to select an ID with CSS typically uses a different colour to a class selector. So it's easier to tell at a glance that ```#about``` is not the same as ```.about```.
 
 
 ### 1.2 Plugins
@@ -69,4 +68,37 @@ Sublime is the most difficult of the three editors to install a plugin on.
 1. First of all visit the [Package Control Installation page](https://packagecontrol.io/installation) and follow the instructions on there.
 2. In Sublime hit `Ctrl+Shift+P`, then begin to type _"install"_ and _"Package Control: Install Package"_ should be an available option. Use your arrow keys if necessary to highlight the option, then press `Enter`. After a few seconds a similar window should appear, search for _"Emmet"_. Use your arrows keys again if necessary to highlight the package, then press `Enter` to install it.
 
+##### Atom
 
+1. Either hit `Ctrl+Comma` or go to `File > Settings`.
+2. In the _"Install"_ tab accessed via the sidebar, search _"Emmet"_ and click _"Install"_.
+
+##### Visual Studio Code
+
+1. Do nothing. Emmet is pre-installed.
+
+## 1.3 Setting up the project
+
+### 1.3.1 Project folder
+
+First of all you're going to create a project folder which will be opened within your text editor. This allows you to manage your files easily, with a good folder structure
+1. In your chosen code editor, go to `File > Open Folder...`.
+2. From here create a folder to contain your project files and then select that folder to open it within your editor.
+3. You should be able to see your folder within your side panel.
+
+___Note:__ At times during this tutorial I may refer to the project folder as the "root directory"._
+
+### 1.3.2 Folder structure and project files
+
+Now within the project folder you are going to create two folders: `css` and `js`. These are for your CSS and JavaScript files respectively.
+
+You can either create these folders from the File Explorer, or from your text editor. I'd recommend doing so from your text editor so that you can get used to managing a project from within.
+1. In the side panel in which your project folder appears in your text editor, right click an empty space beneath your project folder and select _"New Folder"_, then name it _"css"_.
+2. Repeat step 1, this time creating a folder called _"js"_.
+
+Next you need to create a HTML file, a CSS file and a JavaScript file. To do so in your text editor once again right click the project files panel, but select _"New File"_ this time.
+* In your _root directory_ create a file called _"index.html"_.
+* In the _"css"_ folder create a file called _"main.css"_.
+* In the _"js"_ folder create a file called _"scripts.js"_.
+
+___Note:__ It is a good idea to create a folder structure such as this to create an easily navigatable project structure. Whilst not completely necessary for this project it is good practice for larger projects which require deeper folder structures._
