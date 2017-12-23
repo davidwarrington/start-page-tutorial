@@ -77,9 +77,9 @@ Sublime is the most difficult of the three editors to install a plugin on.
 
 1. Do nothing. Emmet is pre-installed.
 
-## 1.3 Setting up the project
+## 2 Setting up the project
 
-### 1.3.1 Project folder
+### 2.1 Project folder
 
 First of all you're going to create a project folder which will be opened within your text editor. This allows you to manage your files easily, with a good folder structure
 1. In your chosen code editor, go to `File > Open Folder...`.
@@ -88,7 +88,7 @@ First of all you're going to create a project folder which will be opened within
 
 ___Note:__ At times during this tutorial I may refer to the project folder as the "root directory"._
 
-### 1.3.2 Folder structure and project files
+### 2.2 Folder structure and project files
 
 Now within the project folder you are going to create two folders: `css` and `js`. These are for your CSS and JavaScript files respectively.
 
