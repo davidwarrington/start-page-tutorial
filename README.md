@@ -140,7 +140,7 @@ The following code is broken down as follows:
 
 The first step to writing your HTML is to create a _"Hello World!"_.
 
-Start by adding a paragraph inside your `body` tag. In order to do this either type `p` and then press tab for Emmet to autocomplete your element, or type `<p></p>`. Between these `<p>` tags, add _"Hello World!"_. Your body tag should look like this:
+Start by adding a paragraph inside your `body` tag. In order to do this either type `p` and then press `tab` for Emmet to autocomplete your element, or type `<p></p>`. Between these `<p>` tags, add _"Hello World!"_. Your body tag should look like this:
 
 ```html
 <body>
@@ -152,7 +152,7 @@ Now save that and open the file in your browser to see your heading.
 
 Your message probably doesn't look very grand. The reason being that the `<p>` tag is the default element used for paragraphs, which typically aren't very large. So your browser will style that as if it were normal text. We want our message to be big though, otherwise will anybody read it?
 
-Change the paragraph tag to a heading tag. For this example we'll use `<h1>` or _"heading 1"_. There are six types of heading _h1_ to _h6_. Each of these is supposed to represent a hierarchy of importance. A `h1` is the most important and as such should only be used once on your page.
+Change the paragraph tag to a heading tag. For this example we'll use `<h1>` or _"heading 1"_. There are six types of heading _h1_ to _h6_. Each of these is supposed to represent a hierarchy of importance. A `h1` is the most important and as such should only be used once on your page. All other heading tags can be used as many times as you'd like.
 
 Your body tag should now look like this:
 
@@ -172,7 +172,7 @@ We'll start with the lists first because the links are contained within them. To
 
 Since the list you're making presumably has no ranking importance for the list items, we'll use an unordered list.
 
-In order to create one make a `<ul>` tag, and don't forget to close it! _NOTE: `ul` means "unordered list" and `ol` means "ordered list"._
+In order to create one make a `<ul>` tag, and don't forget to close it! _Note: `ul` means "unordered list" and `ol` means "ordered list"._
 
 From here if you add content inside of your `ul` tag such as your "Hello World!" message, you won't find any bullet points. This is because the browser does not yet recognise that content as a list item. In order to make a list item we use the `<li>` tag. If you're being rebellious and you're using an ordered list instead, the `li` tag is still the tag that you want to use for list items (and don't worry about numbering them; the browser will do that for you). Within the list item, we add our content. So, for example, if I was listing web development related sites my list might look something like this:
 
